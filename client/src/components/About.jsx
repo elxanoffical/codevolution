@@ -27,7 +27,8 @@ const About = () => {
                 <img src={about2} alt="" />
             </div>
 
-            {/* about content*/}
+            
+
             <div className='md:w-2/5'>
                 <h2 className=' md:text-6xl text-3xl text-primary mb-5 leading-normal'>
                     Lorem ipsum dolor sit amet consectetur. <span className='text-secondary'>Lorem, ipsum dolor.</span>
