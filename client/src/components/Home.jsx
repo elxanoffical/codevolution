@@ -17,14 +17,14 @@ const Home = () => {
           </div>
 
           {/* Banner content*/}
-          <div className="md:w-3/5">
-            <h2 className="md:text-7xl text-4xl font-bold text-white mb-6 leading-relaxed">Developer your skills without diligence</h2>
+          <div className="md:w-3/5 space-x-4">
+            <h2 className="md:text-7xl ml-4 text-4xl font-bold text-white mb-6 leading-relaxed">Developer your skills without diligence</h2>
             <p className="text-[#EBEBEB] text-2xl mb-8">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
               officia nam natus voluptatem cumque, minima sunt id temporibus
               asperiores tenetur.
             </p>
-            <div className=" space-x-5 space-y-4">
+            <div className="space-x-5 space-y-4">
               <button className="btnPrimary ">Get Started</button>
               <button className="btnPrimary">Discount</button>
             </div>
