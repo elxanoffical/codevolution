@@ -5,7 +5,7 @@ const Pricing = () => {
   const [isYearly, setIsYearly] = useState(false);
 
   return (
-    <div className="md:px-14 p-4 max-w-s mx-auto py-10">
+    <div className="md:px-14 p-4 max-w-screen-2xl mx-auto py-10">
       <div className="text-center">
         <h2 className="md:text-5xl text-3xl font-extrabold text-primary mb-2">
           Here are all our plans
@@ -82,6 +82,7 @@ const Pricing = () => {
                 Personal advice from teachers
               </li>
             </ul>
+
             <div className="w-full mx-auto mt-8 flex items-center justify-center">
               <button className="btnPrimary">Buyying</button>
             </div>

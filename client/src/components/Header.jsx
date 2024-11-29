@@ -9,15 +9,10 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
-  // const navItems = [
-  //   { link: "Overview", path: "home" },
-  //   { link: "Feature", path: "feature" },
-  //   { link: "About", path: "about" },
-  //   { link: "Pricing", path: "pricing" },
-  // ];
+
   return (
     <>
-      <header className="bg-white md:px-14 p-4 max-w-screen-2xl mx-auto fixed top-0 right-0 left-0 ">
+      <header className="bg-white md:px-14 p-4 max-w-screen-2xl mx-auto fixed top-0 right-0 left-0 border-b border-gray-100">
         <div className="text-lg container mx-auto flex justify-between items-center font-medium">
           <div className="flex space-x-14 items-center">
             <a
