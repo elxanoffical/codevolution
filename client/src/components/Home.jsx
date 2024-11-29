@@ -15,8 +15,8 @@ const Home = () => {
             rounded-br-[100px] rounded-tl-[100px]"
             />
           </div>
-
-          {/* Banner content*/}
+ 
+           {/* Banner content*/}
           <div className="md:w-3/5 space-x-4">
             <h2 className="md:text-7xl ml-4 text-4xl font-bold text-white mb-6 leading-relaxed">Developer your skills without diligence</h2>
             <p className="text-[#EBEBEB] text-2xl mb-8">

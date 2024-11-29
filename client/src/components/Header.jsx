@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GrLanguage } from "react-icons/gr";
 import { FaXmark, FaBars } from "react-icons/fa6";
-
+import { navItems } from "../data/navItems";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -9,12 +9,12 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const navItems = [
-    { link: "Overview", path: "home" },
-    { link: "Feature", path: "feature" },
-    { link: "About", path: "about" },
-    { link: "Pricing", path: "pricing" },
-  ];
+  // const navItems = [
+  //   { link: "Overview", path: "home" },
+  //   { link: "Feature", path: "feature" },
+  //   { link: "About", path: "about" },
+  //   { link: "Pricing", path: "pricing" },
+  // ];
   return (
     <>
       <header className="bg-white md:px-14 p-4 max-w-screen-2xl mx-auto fixed top-0 right-0 left-0 ">
