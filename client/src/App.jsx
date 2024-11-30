@@ -6,6 +6,7 @@ import Features from "./components/Features";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
 import Newsbanner from "./components/Newsbanner";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <About/>
       <Pricing/>
       <Newsbanner/>
+      <Footer/>
     </>
   );
 };

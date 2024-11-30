@@ -4,7 +4,7 @@ import feature2 from '../assets/feature2.png'
 
 const About = () => {
   return (
-    <div className='md:px-14 p-4 max-w-screen-2xl mx-auto space-y-10'>
+    <div className='md:px-14 p-4 max-w-screen-2xl mx-auto space-y-10' id='about'>
         <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
             <div className='md:w-1/2'>
                 <img src={feature2} alt="" />

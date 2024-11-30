@@ -3,7 +3,7 @@ import Banner2 from "../assets/Banner2.png";
 
 const Home = () => {
   return (
-    <div className="md:px-12 p-4 max-w-screen-2xl mx-auto mt-20">
+    <div className="md:px-12 p-4 max-w-screen-2xl mx-auto mt-20" id="home">
       <div className="gradientBg rounded-xl rounded-br-[80px] md:p-9 py-9">
         <div className="flex flex-col md:flex-row-reverse justify-between items-center gap-10">
           {/* Banner Image*/}

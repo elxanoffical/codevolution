@@ -3,6 +3,7 @@ import { GrLanguage } from "react-icons/gr";
 import { FaXmark, FaBars } from "react-icons/fa6";
 import { navItems } from "../data/navItems";
 import { MdOutlineDarkMode } from "react-icons/md";
+import { Link, link } from "react-scroll";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,14 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
-  
+  const checkDarkMode = () => {
+    if (localStorage.getItem("dark")) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  };
+
   const darkMod = () => {
     if (localStorage.getItem("dark")) {
       document.documentElement.classList.add("dark");
@@ -25,10 +33,13 @@ const Header = () => {
     console.log("dark mod deyisdi");
   };
 
+  checkDarkMode();
   return (
     <>
-      <header className="bg-white md:px-14 dark:bg-gray-900 dark:text-white p-4 max-w-screen-2xl
-       mx-auto fixed top-0 right-0 left-0 border-b border-gray-100 dark:border-gray-600">
+      <header
+        className="bg-white md:px-14 dark:bg-gray-900 dark:text-white p-4 max-w-screen-2xl
+       mx-auto fixed top-0 right-0 left-0 border-b border-gray-100 dark:border-gray-600"
+      >
         <div className="text-lg container mx-auto flex justify-between items-center font-medium">
           <div className="flex space-x-14 items-center">
             <a
@@ -40,9 +51,17 @@ const Header = () => {
 
             <ul className="md:flex space-x-12 hidden">
               {navItems.map(({ link, path }) => (
-                <a key={link} href={path} className="block hover:text-gray-400">
+                <Link
+                  key={link}
+                  to={path}
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  className="block hover:text-gray-400 cursor-pointer"
+                >
                   {link}
-                </a>
+                </Link>
               ))}
             </ul>
           </div>
@@ -52,11 +71,10 @@ const Header = () => {
               <button
                 onClick={darkMod}
                 className="bg-gray-700 w-full transition-colors hover:bg-gray-500 text-white
-               h-8 font-medium flex items-center px-4 space-x-2 text-lg rounded-full"
+               h-8 font-medium flex items-center px-4 space-x-2 text-lg rounded-full dark:bg-white"
               >
-                <MdOutlineDarkMode className="w-5 h-5" />
-                <span className="hidden dark:inline">light mod</span>
-                <span className="inline dark:hidden">dark mod</span>
+                <MdOutlineDarkMode className="w-5 h-5 dark:text-black" />
+                
               </button>
             </div>
             <a
@@ -94,9 +112,17 @@ const Header = () => {
         }`}
       >
         {navItems.map(({ link, path }) => (
-          <a key={link} href={path} className="block hover:text-gray-400">
+          <Link
+            key={link}
+            to={path}
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            className="block hover:text-gray-400 text-white cursor-pointer "
+          >
             {link}
-          </a>
+          </Link>
         ))}
       </div>
     </>

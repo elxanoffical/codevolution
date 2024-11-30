@@ -5,7 +5,7 @@ const Pricing = () => {
   const [isYearly, setIsYearly] = useState(false);
 
   return (
-    <div className="md:px-14 p-4 max-w-screen-2xl mx-auto py-10">
+    <div className="md:px-14 p-4 max-w-screen-2xl mx-auto py-10" id="pricing">
       <div className="text-center">
         <h2 className="md:text-5xl text-3xl font-extrabold text-primary mb-2 dark:text-white">
           Here are all our plans
