@@ -1,21 +1,21 @@
 import React from 'react'
-import about from '../assets/about.svg'
-import about2 from '../assets/about2.svg'
+import about2 from '../assets/about.png'
+import feature2 from '../assets/feature2.png'
 
 const About = () => {
   return (
     <div className='md:px-14 p-4 max-w-screen-2xl mx-auto space-y-10'>
         <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
             <div className='md:w-1/2'>
-                <img src={about} alt="" />
+                <img src={feature2} alt="" />
             </div>
 
             {/* about content*/}
             <div className='md:w-2/5'>
-                <h2 className=' md:text-6xl text-3xl text-primary mb-5 leading-normal'>
+                <h2 className=' md:text-6xl text-3xl text-primary mb-5 leading-normal dark:text-white'>
                     Lorem ipsum dolor sit amet consectetur. <span className='text-secondary'>Lorem, ipsum dolor.</span>
                 </h2>
-                <p className='text-gray-700 text-lg mb-7'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore consequatur accusamus repellendus?
+                <p className='text-gray-700 text-lg mb-7 dark:text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore consequatur accusamus repellendus?
                      Vitae blanditiis sunt sint illo molestiae suscipit ut?</p>
                      <button className='btnPrimary'>Get Started</button>
             </div>
@@ -30,10 +30,10 @@ const About = () => {
             
 
             <div className='md:w-2/5'>
-                <h2 className=' md:text-6xl text-3xl text-primary mb-5 leading-normal'>
+                <h2 className=' md:text-6xl text-3xl text-primary mb-5 leading-normal dark:text-white'>
                     Lorem ipsum dolor sit amet consectetur. <span className='text-secondary'>Lorem, ipsum dolor.</span>
                 </h2>
-                <p className='text-gray-700 text-lg mb-7'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore consequatur accusamus repellendus?
+                <p className='text-gray-700 text-lg mb-7 dark:text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore consequatur accusamus repellendus?
                      Vitae blanditiis sunt sint illo molestiae suscipit ut?</p>
                      <button className='btnPrimary'>Get Started</button>
             </div>

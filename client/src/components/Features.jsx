@@ -1,15 +1,15 @@
 import React from "react";
-import feature from "../assets/feature.svg";
+import feature2 from "../assets/feature2.png";
 
 const Features = () => {
   return (
     <div className=" my-24 md:px-14 px-4 max-w-screen-2xl mx-auto">
       <div className=" flex flex-col lg:flex-row justify-between items-start gap-10">
         <div className="lg:w-1/4">
-          <h2 className="text-3xl text-primary font-bold lg:w-2/3 mb-3">
+          <h2 className="text-3xl text-primary font-bold lg:w-2/3 mb-3 dark:text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing.
           </h2>
-          <p className="text-base text-gray-800">
+          <p className="text-base text-gray-800 dark:text-gray-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel
             quos molestias non labore, distinctio earum at dolorem iusto ea.
           </p>
@@ -20,10 +20,11 @@ const Features = () => {
 
             <div
               className="bg-[rgba(255,255,255,0.04)] rounded-[35px] h-96 shadow-2xl p-8
-          flex items-center justify-center hover:translate-y-4 transition-all duration-300 cursor-pointer"
+          flex items-center justify-center hover:translate-y-4 transition-all duration-300 cursor-pointer
+          dark:bg-white"
             >
               <div>
-                <img src={feature} alt="" />
+                <img src={feature2} alt="" />
                 <h3 className="text-2xl font-semibold text-primary px-4 text-center">
                   Lorem ipsum dolor sit.
                 </h3>
@@ -33,10 +34,10 @@ const Features = () => {
             <div
               className="bg-[rgba(255,255,255,0.04)] rounded-[35px] h-96 shadow-2xl p-8
           flex items-center justify-center hover:translate-y-4 transition-all duration-300 cursor-pointer
-          md:mt-16"
+          md:mt-16 dark:bg-white"
             >
               <div>
-                <img src={feature} alt="" />
+                <img src={feature2} alt="" />
                 <h3 className="text-2xl font-semibold text-primary px-4 text-center">
                   Lorem ipsum dolor sit.
                 </h3>
@@ -45,10 +46,11 @@ const Features = () => {
 
             <div
               className="bg-[rgba(255,255,255,0.04)] rounded-[35px] h-96 shadow-2xl p-8
-          flex items-center justify-center hover:translate-y-4 transition-all duration-300 cursor-pointer"
+          flex items-center justify-center hover:translate-y-4 transition-all duration-300 cursor-pointer
+          dark:bg-white"
             >
               <div>
-                <img src={feature} alt="" />
+                <img src={feature2} alt="" />
                 <h3 className="text-2xl font-semibold text-primary px-4 text-center">
                   Lorem ipsum dolor sit.
                 </h3>

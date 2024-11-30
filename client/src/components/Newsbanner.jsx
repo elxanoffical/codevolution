@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../assets/Banner.svg";
+import Banner2 from "../assets/Banner2.png";
 
 const Newsbanner = () => {
   return (
@@ -9,7 +9,7 @@ const Newsbanner = () => {
           {/* Banner Image*/}
           <div className="bg-gradientBg rounded-lg p-4">
             <img
-              src={Banner}
+              src={Banner2}
               alt=""
               className=" lg:h-[386px] rounded-lg 
           rounded-br-[100px] rounded-tl-[100px]"
