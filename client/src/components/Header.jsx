@@ -84,7 +84,7 @@ const Header = () => {
               <GrLanguage className="mr-3" /> Language
             </a>
             <button
-              className="bg-secondary py-2 px-4 transition-all duration-300 rounded
+              className="bg-secondary hidden lg:flex py-2 px-4 transition-all duration-300 rounded
                  hover:text-white hover:bg-indigo-600"
             >
               Sign up
@@ -94,12 +94,12 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={ToggleMenu}
-              className="text-white focus:outline-none focus:text-gray-300"
+              className="text-white  focus:outline-none focus:text-gray-300"
             >
               {menuOpen ? (
-                <FaXmark className="w-6 h-6 text-primary" />
+                <FaXmark className="w-6 h-6 text-primary dark:text-white" />
               ) : (
-                <FaBars className="w-6 h-6 text-primary" />
+                <FaBars className="w-6 h-6 text-primary dark:text-white" />
               )}
             </button>
           </div>
