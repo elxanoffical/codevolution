@@ -1,39 +1,35 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { GrLanguage } from "react-icons/gr";
 import { FaXmark, FaBars } from "react-icons/fa6";
 import { navItems } from "../data/navItems";
 import { MdOutlineDarkMode } from "react-icons/md";
-import { Link, link } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    return localStorage.getItem("dark") ? true : false;
+  });
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("dark", "true");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.removeItem("dark");
+    }
+  }, [darkMode]);
+
+  const darkModeToggle = () => {
+    setDarkMode((prevMode) => !prevMode);
+    console.log("dark mode değişti");
+  };
 
   const ToggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const checkDarkMode = () => {
-    if (localStorage.getItem("dark")) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  };
-
-  const darkMod = () => {
-    if (localStorage.getItem("dark")) {
-      document.documentElement.classList.add("dark");
-    }
-    document.documentElement.classList.toggle("dark");
-    if (document.documentElement.classList.contains("dark")) {
-      localStorage.setItem("dark", true);
-    } else {
-      localStorage.removeItem("dark");
-    }
-    console.log("dark mod deyisdi");
-  };
-
-  checkDarkMode();
   return (
     <>
       <header
@@ -67,16 +63,16 @@ const Header = () => {
           </div>
 
           <div className="space-x-12 hidden md:flex items-center">
-            <div className=" space-x-5">
+            <div className="space-x-5">
               <button
-                onClick={darkMod}
+                onClick={darkModeToggle}
                 className="bg-gray-700 w-full transition-colors hover:bg-gray-500 text-white
                h-8 font-medium flex items-center px-4 space-x-2 text-lg rounded-full dark:bg-white"
               >
                 <MdOutlineDarkMode className="w-5 h-5 dark:text-black" />
-                
               </button>
             </div>
+
             <a
               href="/"
               className="hidden lg:flex items-center hover:text-secondary"
@@ -94,7 +90,7 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={ToggleMenu}
-              className="text-white  focus:outline-none focus:text-gray-300"
+              className="text-white focus:outline-none focus:text-gray-300"
             >
               {menuOpen ? (
                 <FaXmark className="w-6 h-6 text-primary dark:text-white" />
@@ -119,7 +115,7 @@ const Header = () => {
             spy={true}
             smooth={true}
             offset={-100}
-            className="block hover:text-gray-400 text-white cursor-pointer "
+            className="block hover:text-gray-400 text-white cursor-pointer"
           >
             {link}
           </Link>
