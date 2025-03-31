@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="md:px-12 p-4 max-w-screen-2xl mx-auto mt-20" id="home">
       <div className="gradientBg rounded-xl rounded-br-[80px] md:p-9 py-9">
-        <div className="flex flex-col md:flex-row-reverse justify-between items-center gap-10">
+        <div className="flex flex-col lg:flex-row-reverse justify-between items-center gap-10">
           {/* Banner Image*/}
           <div className="bg-gradientBg rounded-lg p-4">
             <img
@@ -26,7 +26,7 @@ const Home = () => {
               solutions, and troubleshooting to ensure optimal performance.
             </p>
             <div className="space-x-5 space-y-4">
-              <button className="btnPrimary ">Get Started</button>
+              <button className="btnPrimary">Get Started</button>
               <button className="btnPrimary">Discount</button>
             </div>
           </div>

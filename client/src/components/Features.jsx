@@ -16,15 +16,15 @@ const Features = () => {
         </div>
         {/* Features cards*/}
         <div className="w-full lg:w-3/4">
-          <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8">
+          <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8">
 
             <div
               className="bg-[rgba(255,255,255,0.04)] rounded-[35px] h-96 shadow-2xl p-8
           flex items-center justify-center hover:translate-y-4 transition-all duration-300 cursor-pointer
           dark:bg-white"
             >
-              <div>
-                <img src={feature2} alt="" />
+              <div className="flex flex-col items-center justify-center">
+                <img className="w-[80%] sm:w-[100%]" src={feature2} alt="" />
                 <h3 className="text-2xl font-semibold text-primary px-4 text-center">
                   Lorem ipsum dolor sit.
                 </h3>
@@ -37,7 +37,7 @@ const Features = () => {
           md:mt-16 dark:bg-white"
             >
               <div>
-                <img src={feature2} alt="" />
+                <img className="w-[80%] sm:w-[100%]" src={feature2} alt="" />
                 <h3 className="text-2xl font-semibold text-primary px-4 text-center">
                   Lorem ipsum dolor sit.
                 </h3>
@@ -50,7 +50,7 @@ const Features = () => {
           dark:bg-white"
             >
               <div>
-                <img src={feature2} alt="" />
+                <img className="w-[80%] sm:w-[100%]" src={feature2} alt="" />
                 <h3 className="text-2xl font-semibold text-primary px-4 text-center">
                   Lorem ipsum dolor sit.
                 </h3>

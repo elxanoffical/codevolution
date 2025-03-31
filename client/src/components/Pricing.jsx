@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { pricingItem } from "../data/pricing";
 
 const Pricing = () => {
+
   const [isYearly, setIsYearly] = useState(false);
 
   return (
@@ -30,7 +31,7 @@ const Pricing = () => {
             <span className="ml-8 text-2xl font-semibold dark:text-white">Yearly</span>
           </label>
           <input
-            type="checkbox"
+            type="checkbox" 
             id="toggle"
             className="hidden"
             checked={isYearly}

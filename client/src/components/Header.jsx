@@ -39,7 +39,7 @@ const Header = () => {
         <div className="text-lg container mx-auto flex justify-between items-center font-medium">
           <div className="flex space-x-14 items-center">
             <a
-              href="/"
+              href="#"
               className="text-2xl font-semibold flex items-center space-x-2 text-primary dark:text-white"
             >
               <span>Programer</span>
