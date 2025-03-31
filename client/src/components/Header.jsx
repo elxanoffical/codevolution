@@ -42,7 +42,7 @@ const Header = () => {
               href="#"
               className="text-2xl font-semibold flex items-center space-x-2 text-primary dark:text-white"
             >
-              <span>Programer</span>
+              <span>Codevolution</span>
             </a>
 
             <ul className="md:flex space-x-12 hidden">
