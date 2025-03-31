@@ -15,14 +15,12 @@ const About = () => {
 
         {/* about content*/}
         <div className="md:w-2/5">
-          <h2 className=" md:text-4xl text-3xl text-primary mb-5 leading-normal dark:text-white">
-            Lorem ipsum dolor sit amet consectetur.{" "}
-            <span className="text-secondary">Lorem, ipsum dolor.</span>
+          <h2 className="md:text-4xl text-3xl text-primary mb-5 leading-normal dark:text-white">
+            Code with precision and creative insight.{" "}
+            <span className="text-secondary">Innovative, agile solutions.</span>
           </h2>
           <p className="text-gray-700 text-lg mb-7 dark:text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
-            consequatur accusamus repellendus? Vitae blanditiis sunt sint illo
-            molestiae suscipit ut?
+            Developing sophisticated applications demands mastery of modern programming languages, rigorous testing frameworks, and a commitment to continuous learning and improvement.
           </p>
           <button className="btnPrimary">Get Started</button>
         </div>
@@ -34,14 +32,12 @@ const About = () => {
         </div>
 
         <div className="md:w-2/5">
-          <h2 className=" md:text-4xl text-3xl text-primary mb-5 leading-normal dark:text-white">
-            Lorem ipsum dolor sit amet consectetur.{" "}
-            <span className="text-secondary">Lorem, ipsum dolor.</span>
+          <h2 className="md:text-4xl text-3xl text-primary mb-5 leading-normal dark:text-white">
+            Code with precision and creative insight.{" "}
+            <span className="text-secondary">Innovative, agile solutions.</span>
           </h2>
           <p className="text-gray-700 text-lg mb-7 dark:text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
-            consequatur accusamus repellendus? Vitae blanditiis sunt sint illo
-            molestiae suscipit ut?
+            Developing sophisticated applications demands mastery of modern programming languages, rigorous testing frameworks, and a commitment to continuous learning and improvement.
           </p>
           <button className="btnPrimary">Get Started</button>
         </div>
