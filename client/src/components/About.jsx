@@ -20,7 +20,9 @@ const About = () => {
             <span className="text-secondary">Innovative, agile solutions.</span>
           </h2>
           <p className="text-gray-700 text-lg mb-7 dark:text-gray-400">
-            Developing sophisticated applications demands mastery of modern programming languages, rigorous testing frameworks, and a commitment to continuous learning and improvement.
+            Developing sophisticated applications demands mastery of modern
+            programming languages, rigorous testing frameworks, and a commitment
+            to continuous learning and improvement.
           </p>
           <button className="btnPrimary">Get Started</button>
         </div>
@@ -37,7 +39,9 @@ const About = () => {
             <span className="text-secondary">Innovative, agile solutions.</span>
           </h2>
           <p className="text-gray-700 text-lg mb-7 dark:text-gray-400">
-            Developing sophisticated applications demands mastery of modern programming languages, rigorous testing frameworks, and a commitment to continuous learning and improvement.
+            Developing sophisticated applications demands mastery of modern
+            programming languages, rigorous testing frameworks, and a commitment
+            to continuous learning and improvement.
           </p>
           <button className="btnPrimary">Get Started</button>
         </div>

@@ -10,13 +10,14 @@ const Features = () => {
             Building innovative software with creative code solutions.
           </h2>
           <p className="text-base text-gray-800 dark:text-gray-400">
-            Developing scalable applications demands mastery of modern frameworks, precise debugging, and persistent learning to transform innovative ideas into elegant code.
+            Developing scalable applications demands mastery of modern
+            frameworks, precise debugging, and persistent learning to transform
+            innovative ideas into elegant code.
           </p>
         </div>
         {/* Features cards */}
         <div className="w-full lg:w-3/4">
           <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8">
-
             <div
               className="bg-[rgba(255,255,255,0.04)] rounded-[35px] h-96 shadow-2xl p-8
           flex items-center justify-center hover:translate-y-4 transition-all duration-300 cursor-pointer

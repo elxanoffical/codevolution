@@ -11,7 +11,9 @@ const Pricing = () => {
           Select Your Ideal Code Plan
         </h2>
         <p className="text-gray-800 md:w-1/3 mx-auto px-4 dark:text-gray-400">
-          Building robust applications requires advanced technical expertise in efficient algorithms, clean code, and continuous integration practices.
+          Building robust applications requires advanced technical expertise in
+          efficient algorithms, clean code, and continuous integration
+          practices.
         </p>
 
         <div className="mt-16">
@@ -57,9 +59,7 @@ const Pricing = () => {
             </p>
             <p className="mt-5 text-center text-secondary text-4xl font-bold">
               {isYearly ? `$${item.yearPrice}` : `$${item.monthPrice}`}{" "}
-              <span
-                className="text-base text-gray-700 font-medium dark:text-gray-400"
-              >
+              <span className="text-base text-gray-700 font-medium dark:text-gray-400">
                 /{isYearly ? "year" : "month"}
               </span>
             </p>

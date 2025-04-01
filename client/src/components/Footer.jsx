@@ -17,7 +17,9 @@ const Footer = () => {
             <span className="text-white">XYZ</span>
           </a>
           <p>
-            Unlock the potential of your code with expert insights and innovative solutions that streamline development, optimize performance, and empower your projects to scale.
+            Unlock the potential of your code with expert insights and
+            innovative solutions that streamline development, optimize
+            performance, and empower your projects to scale.
           </p>
           <div>
             <input
@@ -40,28 +42,52 @@ const Footer = () => {
           <div className="space-y-5 mt-5">
             <h3 className="text-2xl font-semibold">Platform</h3>
             <ul className="flex flex-col gap-3">
-              <a href="/" className="block hover:text-gray-300">Overview</a>
-              <a href="/" className="block hover:text-gray-300">Features</a>
-              <a href="/" className="block hover:text-gray-300">About</a>
-              <a href="/" className="block hover:text-gray-300">Pricing</a>
+              <a href="/" className="block hover:text-gray-300">
+                Overview
+              </a>
+              <a href="/" className="block hover:text-gray-300">
+                Features
+              </a>
+              <a href="/" className="block hover:text-gray-300">
+                About
+              </a>
+              <a href="/" className="block hover:text-gray-300">
+                Pricing
+              </a>
             </ul>
           </div>
           <div className="space-y-5 mt-5">
             <h3 className="text-2xl font-semibold">Help</h3>
             <ul className="flex flex-col gap-3">
-              <a href="/" className="block hover:text-gray-300">How does it work?</a>
-              <a href="/" className="block hover:text-gray-300">Where to ask questions?</a>
-              <a href="/" className="block hover:text-gray-300">How to get started?</a>
-              <a href="/" className="block hover:text-gray-300">Requirements & guidelines</a>
+              <a href="/" className="block hover:text-gray-300">
+                How does it work?
+              </a>
+              <a href="/" className="block hover:text-gray-300">
+                Where to ask questions?
+              </a>
+              <a href="/" className="block hover:text-gray-300">
+                How to get started?
+              </a>
+              <a href="/" className="block hover:text-gray-300">
+                Requirements & guidelines
+              </a>
             </ul>
           </div>
           <div className="space-y-5 mt-5">
             <h3 className="text-2xl font-semibold">Contact</h3>
             <ul className="flex flex-col gap-3">
-              <a href="/" className="block hover:text-gray-300">(012) 1234-344-980</a>
-              <a href="/" className="block hover:text-gray-300">123 XYZ Street</a>
-              <a href="/" className="block hover:text-gray-300">Baku, City 20</a>
-              <a href="/" className="block hover:text-gray-300">info@xyz.com</a>
+              <a href="/" className="block hover:text-gray-300">
+                (012) 1234-344-980
+              </a>
+              <a href="/" className="block hover:text-gray-300">
+                123 XYZ Street
+              </a>
+              <a href="/" className="block hover:text-gray-300">
+                Baku, City 20
+              </a>
+              <a href="/" className="block hover:text-gray-300">
+                info@xyz.com
+              </a>
             </ul>
           </div>
         </div>
