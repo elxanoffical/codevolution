@@ -27,7 +27,7 @@
     "description": "Mürəkkəb tətbiqləri inkişaf etdirmək müasir proqramlaşdırma dillərində ustalıq, ciddi test çərçivələri və davamlı öyrənmə öhdəliyi tələb edir.",
     "getStarted": "Başlayın"
   },
-   "pricing": {
+  "pricing": {
     "heading": "Ideal kod planınızı seçin",
     "subheading": "Güclü tətbiqlər qurmaq üçün təsirli alqoritmlər, təmiz kod və davamlı inteqrasiya təcrübələri üzrə qabaqcıl texniki ustalıq tələb olunur.",
     "toggle": {
@@ -74,5 +74,45 @@
       "year": "il"
     },
     "buyNow": "İndi alın"
+  },
+  "news": {
+    "title": "Ön uc inkişafının incəsənəti və elmi",
+    "description": "Proqramlaşdırma dilləri, frameworklər və alətlərlə təmiz kod, miqyaslana bilmə və əməkdaşlıq inkişafına fokuslanmaqla ustalıq.",
+    "button": "Koda sahibəm"
+  },
+  "footer": {
+    "brand": "XYZ",
+    "description": "Kodunuzun potensialını inkişaf etdirən, performansı optimallaşdıran və layihələrinizi miqyaslandıra bilən innovativ həllər və ekspert tövsiyələri ilə kəşf edin.",
+    "emailPlaceholder": "E-poçtunuz",
+    "subscribe": "Abunə ol",
+    "platform": {
+      "title": "Platforma",
+      "items": ["Ümumi baxış", "Xüsusiyyətlər", "Haqqında", "Qiymətlər"]
+    },
+    "help": {
+      "title": "Yardım",
+      "items": [
+        "Necə işləyir?",
+        "Harada sual verə bilərəm?",
+        "Necə başlamaq olar?",
+        "Tələblər və qaydalar"
+      ]
+    },
+    "contact": {
+      "title": "Əlaqə",
+      "items": [
+        "(012) 1234-344-980",
+        "123 XYZ Küçəsi",
+        "Bakı, Şəhər 20",
+        "info@xyz.com"
+      ]
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "© XYZ 2024 Bütün hüquqlar qorunur."
   }
 }

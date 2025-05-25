@@ -74,5 +74,45 @@
       "year": "year"
     },
     "buyNow": "Buy Now"
+  },
+  "news": {
+    "title": "The Art and Science of Frontend Development",
+    "description": "Skilled in programming languages, frameworks, and tools, with a focus on clean code, scalability, and collaborative development.",
+    "button": "I have a code"
+  },
+  "footer": {
+    "brand": "XYZ",
+    "description": "Unlock the potential of your code with expert insights and innovative solutions that streamline development, optimize performance, and empower your projects to scale.",
+    "emailPlaceholder": "Your email",
+    "subscribe": "Subscribe",
+    "platform": {
+      "title": "Platform",
+      "items": ["Overview", "Features", "About", "Pricing"]
+    },
+    "help": {
+      "title": "Help",
+      "items": [
+        "How does it work?",
+        "Where to ask questions?",
+        "How to get started?",
+        "Requirements & guidelines"
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "items": [
+        "(012) 1234-344-980",
+        "123 XYZ Street",
+        "Baku, City 20",
+        "info@xyz.com"
+      ]
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "© XYZ 2024 All Rights Reserved."
   }
 }
