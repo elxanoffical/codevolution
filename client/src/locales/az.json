@@ -8,5 +8,11 @@
   },
   "signup": "Qeydiyyat",
   "language": "Dil",
-  "darkMode": "Qaranlıq rejim"
+  "darkMode": "Qaranlıq rejim",
+  "home": {
+    "title": "Bacarıqlarınızı əzmkarlıqla inkişaf etdirin",
+    "description": "Mürəkkəb məsələləri analiz etməkdə, effektiv həllər hazırlamaqda və optimal performansı təmin etməkdə peşəkar.",
+    "getStarted": "Başlayın",
+    "discount": "Endirim"
+  }
 }

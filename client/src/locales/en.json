@@ -8,5 +8,11 @@
   },
   "signup": "Sign up",
   "language": "Language",
-  "darkMode": "Toggle dark mode"
+  "darkMode": "Toggle dark mode",
+  "home": {
+    "title": "Developer your skills without diligence",
+    "description": "Proficient in analyzing complex issues, designing efficient solutions, and troubleshooting to ensure optimal performance.",
+    "getStarted": "Get Started",
+    "discount": "Discount"
+  }
 }
