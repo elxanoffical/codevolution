@@ -1,0 +1,12 @@
+{
+  "brand": "KodTəkamülü",
+  "nav": {
+    "home": "Ana səhifə",
+    "about": "Haqqında",
+    "services": "Xidmətlər",
+    "contact": "Əlaqə"
+  },
+  "signup": "Qeydiyyat",
+  "language": "Dil",
+  "darkMode": "Qaranlıq rejim"
+}

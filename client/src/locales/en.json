@@ -1,0 +1,12 @@
+{
+  "brand": "Codevolution",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "signup": "Sign up",
+  "language": "Language",
+  "darkMode": "Toggle dark mode"
+}
