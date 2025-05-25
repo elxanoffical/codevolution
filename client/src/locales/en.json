@@ -21,5 +21,58 @@
     "card1": "Write clean, efficient code.",
     "card2": "Write clean, efficient code.",
     "card3": "Write clean, efficient code."
+  },
+  "about": {
+    "heading": "Code with precision and creative insight. Innovative, agile solutions.",
+    "description": "Developing sophisticated applications demands mastery of modern programming languages, rigorous testing frameworks, and a commitment to continuous learning and improvement.",
+    "getStarted": "Get Started"
+  },
+  "pricing": {
+    "heading": "Select Your Ideal Code Plan",
+    "subheading": "Building robust applications requires advanced technical expertise in efficient algorithms, clean code, and continuous integration practices.",
+    "toggle": {
+      "monthly": "Monthly",
+      "yearly": "Yearly"
+    },
+    "plans": {
+      "start": {
+        "name": "Start",
+        "description": "Kickstart your coding journey with clean, optimized fundamentals always guaranteed.",
+        "features": [
+          "Videos of lessons",
+          "Homework check",
+          "Additional practical task",
+          "Monthly conferences",
+          "Personal advice from teachers"
+        ]
+      },
+      "advance": {
+        "name": "Advance",
+        "description": "Enhance your development skills through agile, innovative coding practices daily.",
+        "features": [
+          "Videos of lessons",
+          "Homework check",
+          "Additional practical task",
+          "Monthly conferences",
+          "Personal advice from teachers"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "Master advanced programming with cutting-edge solutions.",
+        "features": [
+          "Videos of lessons",
+          "Homework check",
+          "Additional practical task",
+          "Monthly conferences",
+          "Personal advice from teachers"
+        ]
+      }
+    },
+    "billing": {
+      "month": "month",
+      "year": "year"
+    },
+    "buyNow": "Buy Now"
   }
 }

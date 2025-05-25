@@ -21,5 +21,58 @@
     "card1": "Təmiz, effektiv kod yazın.",
     "card2": "Təmiz, effektiv kod yazın.",
     "card3": "Təmiz, effektiv kod yazın."
+  },
+  "about": {
+    "heading": "Kodlaşdırmanı dəqiqlik və yaradıcı baxışla həyata keçirin. Innovativ, çevik həllər.",
+    "description": "Mürəkkəb tətbiqləri inkişaf etdirmək müasir proqramlaşdırma dillərində ustalıq, ciddi test çərçivələri və davamlı öyrənmə öhdəliyi tələb edir.",
+    "getStarted": "Başlayın"
+  },
+   "pricing": {
+    "heading": "Ideal kod planınızı seçin",
+    "subheading": "Güclü tətbiqlər qurmaq üçün təsirli alqoritmlər, təmiz kod və davamlı inteqrasiya təcrübələri üzrə qabaqcıl texniki ustalıq tələb olunur.",
+    "toggle": {
+      "monthly": "Aylıq",
+      "yearly": "İllik"
+    },
+    "plans": {
+      "start": {
+        "name": "Başlanğıc",
+        "description": "Kodlaşdırma səyahətinizə hər zaman təmin olunan təmiz, optimallaşdırılmış əsaslarla başlayın.",
+        "features": [
+          "Dərs videoları",
+          "Tapşırıqların yoxlanması",
+          "Əlavə praktik tapşırıq",
+          "Aylıq konfranslar",
+          "Müəllimlərdən fərdi məsləhət"
+        ]
+      },
+      "advance": {
+        "name": "İrəli",
+        "description": "Çevik, innovativ kodlaşdırma təcrübələri ilə inkişaf bacarıqlarınızı gündəlik artırın.",
+        "features": [
+          "Dərs videoları",
+          "Tapşırıqların yoxlanması",
+          "Əlavə praktik tapşırıq",
+          "Aylıq konfranslar",
+          "Müəllimlərdən fərdi məsləhət"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "Ən qabaqcıl həllərlə yüksək səviyyəli proqramlaşdırmanı mənimsəyin.",
+        "features": [
+          "Dərs videoları",
+          "Tapşırıqların yoxlanması",
+          "Əlavə praktik tapşırıq",
+          "Aylıq konfranslar",
+          "Müəllimlərdən fərdi məsləhət"
+        ]
+      }
+    },
+    "billing": {
+      "month": "ay",
+      "year": "il"
+    },
+    "buyNow": "İndi alın"
   }
 }

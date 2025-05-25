@@ -1,8 +1,11 @@
 import React from "react";
 import about2 from "../assets/about.png";
 import feature2 from "../assets/feature2.png";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div
       className="md:px-14 p-4 max-w-screen-2xl mx-auto space-y-10"
@@ -13,18 +16,17 @@ const About = () => {
           <img src={feature2} alt="" />
         </div>
 
-        {/* about content*/}
+        {/* about content */}
         <div className="md:w-2/5">
           <h2 className="md:text-4xl text-3xl text-primary mb-5 leading-normal dark:text-white">
-            Code with precision and creative insight.{" "}
-            <span className="text-secondary">Innovative, agile solutions.</span>
+            {t("about.heading")}
           </h2>
           <p className="text-gray-700 text-lg mb-7 dark:text-gray-400">
-            Developing sophisticated applications demands mastery of modern
-            programming languages, rigorous testing frameworks, and a commitment
-            to continuous learning and improvement.
+            {t("about.description")}
           </p>
-          <button className="btnPrimary">Get Started</button>
+          <button className="btnPrimary">
+            {t("about.getStarted")}
+          </button>
         </div>
       </div>
 
@@ -35,15 +37,14 @@ const About = () => {
 
         <div className="md:w-2/5">
           <h2 className="md:text-4xl text-3xl text-primary mb-5 leading-normal dark:text-white">
-            Code with precision and creative insight.{" "}
-            <span className="text-secondary">Innovative, agile solutions.</span>
+            {t("about.heading")}
           </h2>
           <p className="text-gray-700 text-lg mb-7 dark:text-gray-400">
-            Developing sophisticated applications demands mastery of modern
-            programming languages, rigorous testing frameworks, and a commitment
-            to continuous learning and improvement.
+            {t("about.description")}
           </p>
-          <button className="btnPrimary">Get Started</button>
+          <button className="btnPrimary">
+            {t("about.getStarted")}
+          </button>
         </div>
       </div>
     </div>
