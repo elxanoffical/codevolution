@@ -14,5 +14,12 @@
     "description": "Proficient in analyzing complex issues, designing efficient solutions, and troubleshooting to ensure optimal performance.",
     "getStarted": "Get Started",
     "discount": "Discount"
+  },
+  "feature": {
+    "heading": "Building innovative software with creative code solutions.",
+    "description": "Developing scalable applications demands mastery of modern frameworks, precise debugging, and persistent learning to transform innovative ideas into elegant code.",
+    "card1": "Write clean, efficient code.",
+    "card2": "Write clean, efficient code.",
+    "card3": "Write clean, efficient code."
   }
 }
