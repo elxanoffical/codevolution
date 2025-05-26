@@ -114,5 +114,19 @@
       "linkedin": "LinkedIn"
     },
     "copyright": "© XYZ 2024 All Rights Reserved."
+  },
+  "modal": {
+    "title": "Register",
+    "fields": {
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password"
+    },
+    "actions": {
+      "submit": "Submit"
+    }
   }
 }

@@ -114,5 +114,19 @@
       "linkedin": "LinkedIn"
     },
     "copyright": "© XYZ 2024 Bütün hüquqlar qorunur."
+  },
+  "modal": {
+    "title": "Qeydiyyat",
+    "fields": {
+      "name": "Ad",
+      "namePlaceholder": "Adınızı daxil edin",
+      "email": "E-poçt",
+      "emailPlaceholder": "E-poçtunuzu daxil edin",
+      "password": "Şifrə",
+      "passwordPlaceholder": "Şifrənizi daxil edin"
+    },
+    "actions": {
+      "submit": "Təsdiqlə"
+    }
   }
 }
